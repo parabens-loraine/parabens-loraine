@@ -11,8 +11,8 @@ const alegreya400 = Alegreya({
 export default function Page5Card(): JSX.Element {
   return (
     <CardContentGrid
-      paddingTop={26}
-      paddingBottom={26}
+      paddingTop={28}
+      paddingBottom={28}
       left={2}
       beforePage={'/chapter1/page4'}
       nextPage={'/chapter1/page6'}
