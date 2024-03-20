@@ -26,7 +26,7 @@ const Capa = (
       <Grid container justifyContent="center" alignItems="center">
         <ImagemCapa />
       </Grid>
-      <Grid container wrap="wrap" spacing={1} paddingTop={2}>
+      <Grid container wrap="wrap" spacing={1} paddingTop={'8vh'}>
         <Grid
           item
           xs={15}

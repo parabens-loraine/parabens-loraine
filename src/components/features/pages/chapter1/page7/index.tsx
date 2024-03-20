@@ -8,14 +8,14 @@ const alegreya400 = Alegreya({
   subsets: ['latin'],
 })
 
-export default function Introduction(): JSX.Element {
+export default function Page7Card(): JSX.Element {
   return (
     <CardContentGrid
-      paddingTop={14}
-      paddingBottom={14}
-      beforePage={'/'}
-      nextPage={'/chapter1/page3'}
-      numberPage={'02'}
+      paddingTop={24}
+      paddingBottom={24}
+      beforePage={'/chapter1/page6'}
+      buttonAfterDisabled={true}
+      numberPage={'07'}
     >
       {
         <>
@@ -24,31 +24,28 @@ export default function Introduction(): JSX.Element {
             variant="body1"
             align="center"
           >
-            É 21 da Loraine e eu tentei fazer algo diferente sem ajuda do GPT.
+            Uma mulher elegante.
           </Typography>
           <Typography
             className={`${alegreya400.className} text-light-textSecondary`}
             variant="body1"
             align="center"
           >
-            Queria fazer algo criativo e autêntico, aqui será uma pequena
-            introdução de uma grande história que eu vou contar.
+            Educada.
           </Typography>
           <Typography
             className={`${alegreya400.className} text-light-textSecondary`}
             variant="body1"
             align="center"
           >
-            Espero que você goste, confesso que fiquei um pouco nervoso fazendo
-            isso.
+            Mas, quando necessário,
           </Typography>
           <Typography
             className={`${alegreya400.className} text-light-textSecondary`}
             variant="body1"
             align="center"
           >
-            Mas tentei trazer um pouco de quem eu amo de uma forma divertida
-            então vamos lá...
+            também fala, também age.
           </Typography>
         </>
       }

@@ -8,42 +8,38 @@ const alegreya400 = Alegreya({
   subsets: ['latin'],
 })
 
-export default function Page4Card(): JSX.Element {
+export default function Page5Card(): JSX.Element {
   return (
     <CardContentGrid
-      paddingTop={12}
-      paddingBottom={12}
-      beforePage={'/chapter1/page3'}
-      nextPage={'/chapter1/page5'}
-      numberPage={'04'}
+      paddingTop={26}
+      paddingBottom={26}
+      left={2}
+      beforePage={'/chapter1/page4'}
+      nextPage={'/chapter1/page6'}
+      numberPage={'05'}
     >
       {
         <>
           <Typography
             className={`${alegreya400.className} text-light-textSecondary`}
-            variant="body1"
+            variant="body2"
             align="center"
           >
-            Uma linda mulher única, uma linda mulher inteligente, uma linda
-            mulher divertida.
+            Uma mulher que ama muito o próximo.
           </Typography>
           <Typography
             className={`${alegreya400.className} text-light-textSecondary`}
-            variant="body1"
+            variant="body2"
             align="center"
           >
-            Sabe o que quer, por mais que muitas vezes ela seja insegura, mas
-            ela nunca se deixou se render, ela arrisca quando necessário e se
-            conserva também quando necessário.
+            Que se preocupa com sua família.
           </Typography>
-
           <Typography
             className={`${alegreya400.className} text-light-textSecondary`}
-            variant="body1"
+            variant="body2"
             align="center"
           >
-            Não é egocêntrica pensou sempre muito no próximo, nunca foi alguém
-            que você queira inimizade.
+            Que gosta do que faz.
           </Typography>
         </>
       }

@@ -8,22 +8,22 @@ const alegreya400 = Alegreya({
   subsets: ['latin'],
 })
 
-export default function Page3Card(): JSX.Element {
+export default function Page6Card(): JSX.Element {
   return (
     <CardContentGrid
       paddingTop={28}
       paddingBottom={28}
-      beforePage={'/introduction'}
-      nextPage={'/chapter1/page4'}
-      numberPage={'03'}
+      left={4}
+      beforePage={'/chapter1/page5'}
+      nextPage={'/chapter1/page7'}
+      numberPage={'06'}
     >
       {
-          <Typography
-          className={`${alegreya400.className} text-light-textPrimary`}
-          variant="h3"
-          align="center"
+        <Typography
+          className={`${alegreya400.className} text-light-textSecondary`}
+          variant="h6"
         >
-          Sobre ela...
+          Não tem como não a amar.
         </Typography>
       }
     </CardContentGrid>

@@ -15,6 +15,7 @@ interface CardContentProps {
   nextPage?: string
   beforePage?: string
   paddingTop?: string | number
+  left?: string | number
   paddingBottom?: string | number
   buttonBeforeDisabled?: boolean
   buttonAfterDisabled?: boolean
@@ -24,17 +25,22 @@ const CardContentSkeleton: React.FC<CardContentProps> = ({
   children,
   paddingTop,
   paddingBottom,
+  left,
 }) => {
   return (
     <CardContent className={'form-field'}>
       <Grid
+        position="relative"
         container
+        justifyContent="center"
+        alignItems="center"
         wrap="nowrap"
         spacing={2}
         padding={5}
         style={{
           paddingTop: paddingTop,
           paddingBottom: paddingBottom,
+          left: left,
         }}
       >
         <Grid item xs>
@@ -54,6 +60,7 @@ const CardContentGrid: React.FC<CardContentProps> = ({
   buttonAfterDisabled,
   paddingTop,
   paddingBottom,
+  left,
 }) => {
   return (
     <Box>
@@ -61,6 +68,7 @@ const CardContentGrid: React.FC<CardContentProps> = ({
         <CardContentSkeleton
           paddingTop={`${paddingTop}vh`}
           paddingBottom={`${paddingBottom}vh`}
+          left={`${left}vw`}
         >
           {children}
         </CardContentSkeleton>
