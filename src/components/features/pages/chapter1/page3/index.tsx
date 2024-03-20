@@ -18,7 +18,7 @@ export default function Page3Card(): JSX.Element {
       numberPage={'03'}
     >
       {
-          <Typography
+        <Typography
           className={`${alegreya400.className} text-light-textPrimary`}
           variant="h3"
           align="center"
