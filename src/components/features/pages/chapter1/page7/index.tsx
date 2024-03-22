@@ -14,7 +14,7 @@ export default function Page7Card(): JSX.Element {
       paddingTop={26}
       paddingBottom={26}
       beforePage={'/chapter1/page6'}
-      buttonAfterDisabled={true}
+      nextPage={'/chapter2/page8'}
       numberPage={'07'}
     >
       {

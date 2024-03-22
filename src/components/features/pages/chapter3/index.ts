@@ -1,0 +1,6 @@
+export { default as Page14Card } from './page14'
+export { default as Page15Card } from './page15'
+export { default as Page16Card } from './page16'
+export { default as Page17Card } from './page17'
+export { default as Page18Card } from './page18'
+export { default as Page19Card } from './page19'

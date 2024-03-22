@@ -1,6 +1,3 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
-const path = require('path')
-
 /**
  * @type {import('next').NextConfig}
  */
@@ -9,9 +6,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  sassOptions: {
-    includePaths: [path.join(__dirname, 'src/styles')],
-  },
+  output: 'standalone',
   experimental: {
     optimizePackageImports: ['@mui/icons-material'],
   },
