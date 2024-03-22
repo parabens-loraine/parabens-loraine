@@ -28,7 +28,7 @@
       "name": "Next.js: Prod debug full stack",
       "type": "node-terminal",
       "request": "launch",
-      "command": "npm run start",
+      "command": "node .next/standalone/server.js",
       "serverReadyAction": {
         "pattern": "- Local:.+(https?://.+)",
         "uriFormat": "%s",

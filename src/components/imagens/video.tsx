@@ -1,8 +1,6 @@
+import qrcode from './qrcode.svg'
+import Image from 'next/image'
+
 export function Video() {
-  return (
-    <video width={300} height={300} controls loop>
-      <source src="/parabens.mp4" type="video/mp4" />
-      Seu navegador não suporta vídeos.
-    </video>
-  )
+  return <Image src={qrcode} width={300} height={400} alt="qrcode" />
 }
